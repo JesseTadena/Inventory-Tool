@@ -1,2 +1,2 @@
 # Inventory-Tool
-This is a Tool that Allows a User to keep Track of how much of something the have 
+This is a Tool which Allows a User to Keep Track of How Much of Something They Have 
