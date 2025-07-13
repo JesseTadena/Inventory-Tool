@@ -79,7 +79,7 @@ def increase_inventory(inventory):
             quantity_added = exception_han_int(quantity_added)
         inventory[item_name] += quantity_added
         
-# Subtracts game values from dictionary  
+# Subtracts "Item" values from dictionary  
 def decrease_inventory(stock_inventory):
     item_name = exception_han_str(str(input("Which item are you Removing?\n")))
     item_name = clean_data(item_name)
@@ -88,7 +88,7 @@ def decrease_inventory(stock_inventory):
     except ValueError:
         quantity_remove = exception_han_int(quantity_remove)
             
-    # Checks to see if game is in inventory 
+    # Checks to see if "Item" is in inventory 
     if item_name not in stock_inventory:
         print("You do not have", item_name, "in stock.")
         
