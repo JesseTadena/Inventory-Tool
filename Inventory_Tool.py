@@ -1,13 +1,8 @@
 #                                                                                                                                                                       Name of Program: Inventory Tool
-#                                                                                                                                                                                   Creator: Jesse Tadena
+#                                                                                                                                                                               Creator: Jesse Tadena
 # - Purpose: Allows the User To Create List of Items They Would Want to Keep Track of                                                                                                                            
 # -  Notes: When using the exception_han_int Function, it needs to be in the form of:
-#                                                                                                               try:
-#                                                                                                                   variable_name = "input:"
-#                                                                                                               except "Name of Exception":
-#                                                                                                                   variable_name = exception_han_int(variable_name) 
-#                                                                                                                   
-#                                                                                       Format within the function
+
 
 
 #Creates a Menu
@@ -74,7 +69,7 @@ def increase_inventory(inventory):
         try:
             quantity_added = int(input("How many of these are you adding? Please type in an integer\n"))
         except ValueError:
-            quantity_added = exception_han_int(quantity_added)
+            quantity_added = exception_han_int()
         inventory[item_name] = item_name
         inventory[item_name] = quantity_added
         
