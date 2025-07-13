@@ -1,7 +1,6 @@
 #                                                                                                                                                                       Name of Program: Inventory Tool
 #                                                                                                                                                                               Creator: Jesse Tadena
 # - Purpose: Allows the User To Create List of Items They Would Want to Keep Track of                                                                                                                            
-# -  Notes: When using the exception_han_int Function, it needs to be in the form of:
 
 
 
